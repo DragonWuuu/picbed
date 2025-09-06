@@ -1,3 +1,14 @@
 spring:
   application:
     name: picbed
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  port: 8001
+
+# ??token
+token: test_token
+baseurl: http://localhost:8001
+uploadpath: D:/upload
